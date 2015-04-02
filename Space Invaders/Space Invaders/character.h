@@ -1,4 +1,6 @@
 #pragma once
+#ifndef CHARACTER_H
+#define CHARACTER_H
 class character
 {
 public:
@@ -10,3 +12,4 @@ private:
 	int weaponDamage;
 };
 
+#endif
