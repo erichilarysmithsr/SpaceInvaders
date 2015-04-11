@@ -5,11 +5,15 @@ class character
 {
 public:
 	character();
+    character(int mLives, int cLives);
 	~character();
+    void setCurrentLives(int newValue);
+    void setMaxLives(int newValue);
+    int getCurrentLives();
+    int getMaxLives();
 private:
-	int maxHealth;
-	int currentHealth;
-	int weaponDamage;
+    int maxLives;
+    int currentLives;
 };
 
 #endif
